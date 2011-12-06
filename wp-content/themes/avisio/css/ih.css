@@ -1,0 +1,428 @@
+/* The Homepage */
+
+body, .dropcap2, .dropcap3, .dynamicBg, .button, #top .pagination a:hover {
+	background: none repeat scroll 0 0 #00314D;
+}
+
+.siteheading {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+#wrapper_head {
+	background: none;
+	border: none;
+}
+
+.overlay_top, .overlay_bottom {
+	background: none;
+}
+
+#wrapper_featured_area, #wrapper_footer_top {
+	background: none; /*url("http://chic.evometrix.com/wp-content/uploads/2011/11/bottom-bar.png") no-repeat scroll center bottom transparent;*/
+/*	border-bottom: 5px solid #cb9f40; */
+	border: none;
+	
+	
+}
+
+#wrapper_featured_stripe {
+	background: #ffffff;
+	border: none;
+    height: 95px;
+}
+
+#wrapper_main {
+	background: #ffffff;
+	border: none;
+}
+
+.slideshow {
+	margin-top: 50px;
+}
+
+.wrapper_shadow {
+	margin-top: 30px;
+}
+
+#head {
+	padding-top: 10px;
+}
+
+/* the top menu */
+
+#top .nav {
+	top: 100px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#top .nav a {
+	width: auto;
+	padding: 12px 15px;
+	min-height: 0px;
+}
+
+.nav li a {
+	border: none;
+}
+
+.nav li a:hover {
+	color: #cb9f40;
+}
+
+strong {
+	color: #f7f7f7;
+}
+
+/**/
+
+#tagline_text {
+	font-size: 28px;
+	padding-top: 30px;
+}
+
+#main {
+	padding: 0;
+}
+
+#video {
+    padding-top: 25px;
+}
+
+/* the trip slider*/
+
+
+#top .entry .feature_wrap {
+    background: none;
+    border: none;
+    float: left;
+}
+
+#top .medium_sized_slider, #top .medium_sized_slider .featured {
+    height: 200px;
+    width: 400px;
+}
+
+/* mailchimp */
+/*
+#mailchimp_form {
+    float: right;
+    height: 200px;
+    width: 400px;
+	background: transparent;
+}
+
+#mc_embed_signup {
+	background: transparent !important;
+	margin-top: -30px !important;
+}
+
+#mc_embed_signup input.email {
+	width: 98% !important;
+	float: left;
+}
+
+#mc_embed_signup .button {
+	background-color: #CB9F40 !important;
+	float: left;
+	height: 40px !important;
+	width: 120px !important;
+}*/
+
+
+#mc_embed_signup .button:hover {
+	background-color: #00314D !important;
+}
+
+/* footer styles */
+
+.footer .widget_recent_entries a, .footer .widget_categories a, .footer .widget_pages a, .footer .widget_meta a, .footer .widget_archive a, .footer .widget_nav_menu a, .footer .widget_links a {
+	border-bottom: none;
+}
+
+/*.footer .widgettitle {
+	border-bottom: none;
+}
+*/
+
+/* new homepage styles */
+
+.home #wrapper_main {display:none;}
+#wrapper_footer_bottom{background:#00314D;}
+#top #head .logoimg, #top #head .logoimg a, #top #head .logoimg a img {width: 48%; margin-top:15px; margin-left:2px;}
+.feature_wrap {padding: 0px;}
+
+#menu-footer {
+	list-style-type: none;
+}
+
+#menu-footer li {
+	float:left;
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+#menu-footer a {
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+
+#menu-footer a:hover {
+	color: #cb9f40;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.feature_excerpt {width: 880px !important;}
+.slidercontent {padding: 0px !important;}
+
+.scrollTop {display:none;}
+
+#footer_inside {
+	background: url("http://chic.evometrix.com/wp-content/uploads/2011/11/bottom-bar.png") repeat scroll 0 0 transparent;
+    height: 5px;
+    margin-top: 45px;
+    padding: 0;
+} /*border-bottom:5px solid #cb9f40; padding: 0 0;*/
+
+#top .sliderheading {
+	font: inherit;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float: right;
+}
+
+.social_bookmarks .rss a{background: transparent url(http://chic.evometrix.com/wp-content/uploads/2011/11/Gold_Youtube_Icon.png) 0 0  no-repeat;}
+.social_bookmarks .facebook a{background: transparent url(http://chic.evometrix.com/wp-content/uploads/2011/11/gold_facebook_icon.png) 0 0  no-repeat;}
+.social_bookmarks .twitter a{background: transparent url(http://chic.evometrix.com/wp-content/uploads/2011/11/Gold_Twitter_Icon.png) 0 0  no-repeat;}
+.social_bookmarks .flickr a{background: transparent url(http://chic.evometrix.com/wp-content/uploads/2011/11/Gold_Linkedin_Icon.png) 0 0  no-repeat;}
+
+div.light_square .pp_left, div.light_square .pp_middle, div.light_square .pp_right, div.light_square .pp_content {background: none;}
+
+.home #wrapper_featured_area {border: none;}
+.home #footernavmenu {display: none;}
+
+/* subpages styling */
+
+#wrapper_stripe {display: none;}
+#wrapper_featured_area {border-bottom: 5px solid #cb9f40;}
+
+#footernavmenu {text-align: center;}
+
+.page-template-default .copyright {display:none}
+
+.wrapper_heading {min-height:0px !important;}
+
+
+
+
+
+/* 
+Individual Trip Pages 
+*/
+
+.single-wpsc-product .ajax_form {
+    display: none;
+}
+
+.single_product_display .product_description, .single_product_display .single_additional_description {line-height: 1.5em !important;}
+.tab {font-size: 18px !important;}
+.tab_content {font-size: 14px !important;}
+.tab_content p {margin:5px 15px 5px -10px;}
+
+.js_active .entry .tab_content {background: none; border:none;}
+.js_active #top .entry .active_tab {color: #fff;}
+.tab {background: #00314d !important; color: #fff;}
+
+.js_active .entry .tab {padding: 5px 15px 10px;}
+
+.js_active #top .entry .active_tab_content {z-index: 0;}
+.preview_link {display:none;}
+
+.tab {
+    border-top: 3px solid #CB9F40 !important;
+    margin: 0 !important;
+    border-bottom: 3px solid #CB9F40 !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+
+/* this is a hack to get the product image to not display - we need to find a better way to do this */
+.entry-content a img {display: none;}
+.nivo-controlNav{display:none;}
+
+#tripvideo {
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-bottom: 5px solid #cb9f40;
+    border-top: 5px solid #cb9f40;
+}
+
+h4 {
+	letter-spacing: 4px;
+    border-bottom: 5px solid #cb9f40;
+    text-transform: uppercase;
+    font-size: 18px;	
+}
+
+.entry td{
+	line-height: 21px;
+    padding: 6px 28px 20px 13px;
+	font-size: 14px;
+	border-right: none;
+	border-bottom: 1px solid #cb9f40;
+}
+
+#gmap {
+	border-bottom: 5px solid #cb9f40;
+    border-top: 5px solid #cb9f40;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 15px !important;
+}
+
+#ratings {
+    height: 50px;
+    border-top: 5px solid #CB9F40;
+    padding-top: 15px;
+    border-bottom: 5px solid #CB9F40;
+}
+
+#ratings .ratingtext {
+	float:right;
+	margin-top: 5px;
+}
+
+.pullquote_left {
+    float: left;
+    margin: 2% 0 2% 0;
+    padding: 0 0 0 100px;
+	width: 85%;
+}
+
+.pullquote em {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*products(at bottom)*/
+
+.product_form td {
+    width: 10px !important;
+}
+
+.product_form fieldset {
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.product_form td {
+    padding-bottom: 8px !important;
+    padding-top: 7px !important;
+}
+
+.wpsc_buy_button {
+    float: left;
+}
+
+/* 
+Trip Designer Page 
+*/
+
+.entry ul li {background: none; border: none;}
+.entry ul, .entry ol {border: none;}
+
+.gform_wrapper .gfield_radio li {
+    float: left;
+    margin: 0 40px 5px !important;
+}
+
+.gform_wrapper .top_label .gfield_label{display:none !important;}
+
+#field_1_17 ul.gfield_checkbox li {
+    float: left;
+    margin: 10px 10px 0 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.gform_wrapper ul.gfield_radio li input[type="radio"]:checked + label, .gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked + label {font-weight: normal !important;}
+
+
+/**
+Desgined trips query template 
+**/
+
+.limit {
+    display: none;
+}
+.categories {
+    display: none;
+}
+
+.page-template-template_trips-php .post-meta li {
+    float: right;
+    width: 63%;
+}
+
+.page-template-template_trips-php .entry-content img {float:left;}
+.page-template-template_trips-php .entry-content p {float:right; width: 63%;}
+.page-template-template_trips-php object {display: none;} /*don't display the video on the query page*/
+.page-template-template_trips-php span.framed {display: none;}
+
+.page-template-template_trips-php .entry-head {
+    border-top: 2px solid #CB9F40;
+	border-bottom: none;
+}
+
+
+
+/*Blog page*/
+.page-template-template_trips-php .post-meta li {
+    float: right;
+    width: 63%;
+}
+
+.page-template-template_blog-php .entry-content img {float:left;}
+.page-template-template_blog-php .entry-content p {float:right; width: 63%;}
+.page-template-template_blog-php object {display: none;} /*don't display the video on the query page*/
+.page-template-template_blog-php span.framed {display: none;}
+
+.page-template-template_blog-php .entry-head {
+    border-top: 2px solid #CB9F40;
+	border-bottom: none;
+}
+
+.page-template-template_blog-php p img {display: none !important;}
+
+.page-template-template_blog-php #main ul, #main ol {
+    float: right;
+    width: 64%;
+}
+#blogarchives {
+    float: left;
+}
+
+#blogcategories {
+    float: left;
+    width: 200px;
+}
+
+.center h2 {
+    display: none;
+}
+
+/*individual posts*/
+.single-format-standard .framed {margin: auto;}

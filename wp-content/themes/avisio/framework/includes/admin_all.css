@@ -1,0 +1,27 @@
+/*sidebar nav*/
+#adminmenu #menu-posts-slideshow div.wp-menu-image {
+background-position: -121px -33px;
+}
+
+#adminmenu #menu-posts-slideshow:hover div.wp-menu-image {
+background-position: -121px -1px;
+}
+
+
+
+#adminmenu #menu-posts-testimonials div.wp-menu-image {
+background-position: -151px -33px;
+}
+
+#adminmenu #menu-posts-testimonials:hover  div.wp-menu-image{
+background-position: -151px -1px;
+}
+
+
+#adminmenu #menu-posts-portfolio div.wp-menu-image {
+background-position: -1px -33px;
+}
+
+#adminmenu #menu-posts-portfolio:hover  div.wp-menu-image{
+background-position: -1px -1px;
+}
